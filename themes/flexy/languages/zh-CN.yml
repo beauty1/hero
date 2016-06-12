@@ -1,0 +1,26 @@
+categories: 分类
+search: 搜索
+tags: 标签
+tagcloud: 标签云
+tweets: 推文
+prev: 上一页
+next: 下一页
+comment: 留言
+archive_a: 归档
+archive_b: 归档：%s
+page: 第 %d 页
+recent_posts: 最新文章
+newer: Newer
+older: Older
+share: Share
+powered_by: Powered by
+category: Category
+tag: Tag
+
+Home: 首页
+Articles: 文章
+About: 关于我
+Recent_Articles: 最近更新
+Published_on: 发布于
+Last_updated_on: 更新于
+RSS_Feed: RSS 订阅

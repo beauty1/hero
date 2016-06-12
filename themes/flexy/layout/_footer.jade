@@ -1,0 +1,9 @@
+if theme.pubkey
+  section.pubkey= theme.pubkey
+section.copyright
+  span
+  | #{__("powered_by")}
+  a(href='https://hexo.io/') &nbsp;Hexo
+  if config.feed && config.feed.url
+    | &middot;
+    a(href= config.feed.url) #{__("RSS_Feed")}
