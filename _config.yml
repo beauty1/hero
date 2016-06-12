@@ -69,4 +69,4 @@ theme: flexy
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/beauty1/beauty1.github.io.git
+  repo: https://beauty1@github.com/beauty1/beauty1.github.io.git
