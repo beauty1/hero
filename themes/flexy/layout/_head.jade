@@ -1,7 +1,7 @@
 meta(charset='UTF-8')
 meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
 
-title= page.title ? page.title + ' | ' + config.title : config.title
+title= page.title ? __(page.title) + ' | ' + config.title : config.title
 
 meta(name='description', content= page.intro ? page.intro : config.meta_description)
 meta(name='generator', content= config.title)

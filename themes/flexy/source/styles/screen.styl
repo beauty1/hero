@@ -159,6 +159,7 @@ main
 header
   background-image linear-gradient(8deg, hsl(220, 100%, 12%), hsl(220, 40%, 4%) 50%)
   flex 1
+  padding 2rem .7rem
   overflow hidden
   position relative
   text-align center
@@ -239,10 +240,10 @@ header
 main
   // Background and text flow
   background $background-color
-  flex 2
+  flex 3.5
   hypens auto
   overflow-x hidden
-  padding 20px // Smaller padding on small screens
+  padding 2rem .7rem // Smaller padding on small screens
   text-align left
   word-break normal
   word-wrap break-word
@@ -282,7 +283,7 @@ main
   article.item
     border-bottom 1px solid hsla(0, 0, 0, .15)
     color $body-color
-    padding 40px
+    padding 10px 0
     text-align center
     h2
       break-word normal
@@ -574,15 +575,12 @@ main
     padding-top 20px
   // Footer
   footer
-    padding 0
     text-align center
     position relative
-    padding 4rem 0
-    border darken($background-color, 15%) 1px solid
+    padding .5rem 0
     font-size 1.3rem
     line-height 2.1em
     color lighten($body-color, 50%)
-    background darken($background-color, 5%)
     :not(main) > a
       color lighten($body-color, 20%)
       font-weight 700
@@ -834,7 +832,7 @@ figure.highlight
       flex 1
       overflow hidden
       text-align right
-      padding 40px
+      padding 5rem 2.5rem
 
       img
         margin 0 -32px 0 0
@@ -845,20 +843,22 @@ figure.highlight
           li
             display block
             line-height 1.6em
-            padding 0
+            padding 2px 0
             &:after
               content ''
               padding 0
 
     main
-      flex 2
-      padding 40px
+      flex 3.5
+      padding 5rem 2.5rem
       form
         .form-column
           input[type="name"]
           input[type="email"]
             width 35%
             margin .5em .5em .5em 0
+      article.item
+        padding 3rem 1rem
 
 // ===========================================================================
 // 7. Code Theme
